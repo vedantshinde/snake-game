@@ -61,7 +61,7 @@ while game_is_on:
         scoreboard.display_score()
 
         # Increase speed/Level:
-        if scoreboard.score % 2 == 0 and SLEEP_TIME > 0.02:
+        if scoreboard.score % 20 == 0 and SLEEP_TIME > 0.02:
             SLEEP_TIME -= 0.02
             scoreboard.display_text(text="⬆️SNAKE SPEED ⬆️")
 
